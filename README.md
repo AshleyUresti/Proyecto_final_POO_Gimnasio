@@ -96,7 +96,26 @@
     * Cálculo del descuento según el tipo de `Promocion` (**RF-10**).
 
 ---
-## 2. Modelado y fundamentos técnicos
+
+## 3. Diagrama de clases UML
+
+Diseño orientado a objetos del sistema de gestión del gimnasio **POO Fitness**, una sucursal en Coatzacoalcos que ofrece membresías, visitas, clases grupales, entrenamiento personalizado y venta de bebidas energéticas.
+
+El diagrama incluye:
+
+- Clases con sus atributos y métodos, con su visibilidad (`+`, `-`).
+- Multiplicidades y nombres de rol en cada relación.
+- Herencia, composición, agregación, asociación y dependencia.
+- Clases abstractas y enumeraciones.
+- Organización por paquetes: personas, membresías, promociones, pagos, ventas, actividades, gestión y aplicación.
+
+[Abrir el diagrama en draw.io](https://drive.google.com/file/d/11yYcB7iNocIEuEZnxSGLyT9GkanOZV43/view?usp=sharing)
+
+El enlace abre la versión más reciente del archivo almacenado en Google Drive.
+
+---
+
+## Entrega 2. Modelado y fundamentos técnicos
 
 ### 2.1 Estructura de packages
 
@@ -142,3 +161,20 @@ poofitness/                      <- nombre del proyecto
 └── gestion/
 └── Gimnasio.java
 ```
+=======
+## 3. Diagrama de clases UML
+
+Diseño orientado a objetos del sistema de gestión del gimnasio **POO Fitness**, una sucursal en Coatzacoalcos que ofrece membresías, visitas, clases grupales, entrenamiento personalizado y venta de bebidas energéticas.
+
+El diagrama incluye:
+
+- Clases con sus atributos y métodos, con su visibilidad (`+`, `-`).
+- Multiplicidades y nombres de rol en cada relación.
+- Herencia, composición, agregación, asociación y dependencia.
+- Clases abstractas y enumeraciones.
+- Organización por paquetes: personas, membresías, promociones, pagos, ventas, actividades, gestión y aplicación.
+
+[Abrir el diagrama en draw.io](https://drive.google.com/file/d/11yYcB7iNocIEuEZnxSGLyT9GkanOZV43/view?usp=sharing)
+
+El enlace abre la versión más reciente del archivo almacenado en Google Drive.
+>>>>>>> f8f692c2ae9bd76ef6d788033d2c4e1ab613de57
