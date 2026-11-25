@@ -96,3 +96,49 @@
     * Cálculo del descuento según el tipo de `Promocion` (**RF-10**).
 
 ---
+## 2. Modelado y fundamentos técnicos
+
+### 2.1 Estructura de packages
+
+```
+poofitness/                      <- nombre del proyecto
+└── src/
+└── poofitness/              <- package raíz
+├── app/
+│   ├── Main.java
+│   └── MenuConsola.java
+└── modelo/
+├── personas/
+│   ├── Persona.java          (abstract)
+│   ├── Cliente.java          (abstract)
+│   ├── Empleado.java         (abstract)
+│   ├── Socio.java
+│   ├── Visitante.java
+│   ├── Dueno.java
+│   ├── Entrenador.java
+│   └── Recepcionista.java
+├── membresias/
+│   ├── Membresia.java        (abstract)
+│   ├── MembresiaSemanal.java
+│   ├── MembresiaMensual.java
+│   └── MembresiaAnual.java
+├── promociones/
+│   ├── Promocion.java        (abstract)
+│   └── DescuentoEstudiante.java
+├── pagos/
+│   ├── Pago.java
+│   └── Visita.java
+├── acceso/
+│   ├── ResultadoAcceso.java
+│   └── HorarioAtencion.java
+├── actividades/
+│   ├── ClaseGrupal.java
+│   ├── TipoClase.java        (enum)
+│   ├── EstadoClase.java      (enum)
+│   └── PlanEjercicios.java
+├── ventas/
+│   ├── Bebida.java
+│   └── Venta.java
+└── gestion/
+└── Gimnasio.java
+```
