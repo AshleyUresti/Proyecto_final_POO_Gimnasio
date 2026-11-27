@@ -120,45 +120,52 @@ El enlace abre la versión más reciente del archivo almacenado en Google Drive.
 ### 2.1 Estructura de packages
 
 ```
-poofitness/                      <- nombre del proyecto
-└── src/
-└── poofitness/              <- package raíz
-├── app/
-│   ├── Main.java
-│   └── MenuConsola.java
-└── modelo/
-├── personas/
-│   ├── Persona.java          (abstract)
-│   ├── Cliente.java          (abstract)
-│   ├── Empleado.java         (abstract)
-│   ├── Socio.java
-│   ├── Visitante.java
-│   ├── Dueno.java
-│   ├── Entrenador.java
-│   └── Recepcionista.java
-├── membresias/
-│   ├── Membresia.java        (abstract)
-│   ├── MembresiaSemanal.java
-│   ├── MembresiaMensual.java
-│   └── MembresiaAnual.java
-├── promociones/
-│   ├── Promocion.java        (abstract)
-│   └── DescuentoEstudiante.java
-├── pagos/
-│   ├── Pago.java
-│   └── Visita.java
-├── acceso/
-│   ├── ResultadoAcceso.java
-│   └── HorarioAtencion.java
-├── actividades/
-│   ├── ClaseGrupal.java
-│   ├── TipoClase.java        (enum)
-│   ├── EstadoClase.java      (enum)
-│   └── PlanEjercicios.java
-├── ventas/
-│   ├── Bebida.java
-│   └── Venta.java
-└── gestion/
-└── Gimnasio.java
+
+poofitnes/                      <- nombre del proyecto
+├── src/
+│   └── poofitnes/              <- package raíz
+│       ├── app/
+│       │   ├── Main.java
+│       │   └── MenuConsola.java
+│       └── modelo/
+│           ├── personas/
+│           │   ├── Persona.java          (abstract)
+│           │   ├── Cliente.java          (abstract)
+│           │   ├── Empleado.java         (abstract)
+│           │   ├── Socio.java
+│           │   ├── Visitante.java
+│           │   ├── Dueño.java
+│           │   ├── Entrenador.java
+│           │   └── Recepcionista.java
+│           ├── membresias/
+│           │   ├── Membresia.java        (abstract)
+│           │   ├── MembresiaSemanal.java
+│           │   ├── MembresiaMensual.java
+│           │   └── MembresiaAnual.java
+│           ├── promociones/
+│           │   ├── Promocion.java        (abstract)
+│           │   └── DescuentoEstudiante.java
+│           ├── pagos/
+│           │   ├── Pago.java
+│           │   └── Visita.java
+│           ├── acceso/
+│           │   ├── ResultadoAcceso.java
+│           │   └── HorarioAtencion.java
+│           ├── actividades/
+│           │   ├── ClaseGrupal.java
+│           │   ├── TipoClase.java        (enum)
+│           │   ├── EstadoClase.java      (enum)
+│           │   └── PlanEjercicios.java
+│           ├── ventas/
+│           │   ├── Bebida.java
+│           │   └── Venta.java
+│           ├── gestion/
+│           │   └── Gimnasio.java
+│           ├── docs/
+│           ├── test/
+│           ├── excepciones/
+│           └──.gitignore 
+└── README.md
+
 ```
 ---
