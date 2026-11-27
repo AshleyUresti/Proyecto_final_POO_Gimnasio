@@ -109,7 +109,7 @@ El diagrama incluye:
 - Clases abstractas y enumeraciones.
 - Organización por paquetes: personas, membresías, promociones, pagos, ventas, actividades, gestión y aplicación.
 
-[Abrir el diagrama en draw.io](https://drive.google.com/file/d/11yYcB7iNocIEuEZnxSGLyT9GkanOZV43/view?usp=sharing)
+[Abrir el diagrama en draw.io](https://drive.google.com/file/d/139aXHoTPCNL6XBWpjmu_7s1y80lHetR3/view?usp=sharing)
 
 El enlace abre la versión más reciente del archivo almacenado en Google Drive.
 
